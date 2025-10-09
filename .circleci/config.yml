@@ -8,7 +8,9 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: pip install -r requirements.txt
+          command: 
+            pip install -r requirements.txt
+            pip install pytest
       - run:
           name: Run tests
           command: pytest CircleCI_Repo\test_calc.py
