@@ -6,8 +6,8 @@ class TestCalc(unittest.TestCase):
     def test_triangular_number(self):
         self.assertEqual(calc.triangular_numbers(1), 1)
         self.assertEqual(calc.triangular_numbers(2), 3)
-        self.assertEqual(calc.triangular_numbers(99),4050)
-        self.assertEqual(calc.triangular_numbers(100),5950)
+        self.assertEqual(calc.triangular_numbers(99),4950)
+        self.assertEqual(calc.triangular_numbers(100),5050)
 
     def test_invalid_input(self):
         # Test invalid inputs which should raise an error
