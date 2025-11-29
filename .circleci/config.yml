@@ -14,7 +14,8 @@ jobs:
           command: pip install pytest
       - run:
           name: Run tests
-          command: pytest Continuoustest_calc.py
+          command: pytest Continuous_Integration_Activity/test_calc.py
+          
 
 workflows:
   version: 2
